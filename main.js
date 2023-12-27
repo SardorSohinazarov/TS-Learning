@@ -1,6 +1,4 @@
-"use strict";
 // console.log('Qales');
-Object.defineProperty(exports, "__esModule", { value: true });
 // function sonlarniChiqar(){
 //     for(let i = 0; i< 10; i++){
 //         console.log(i)
@@ -79,8 +77,64 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // cor.x = -4;
 // cor.y = 45;
 // cor.print();
-var Cordinate_1 = require("./Cordinate");
-var cor = new Cordinate_1.Cordinate(5, 55);
-cor.x = 4;
-cor.y = 45;
-cor.print();
+//import qilish
+// import { Cordinate } from "./Cordinate";
+// let cor = new Cordinate(5,55);
+// cor.x = 4;
+// cor.y = 45;
+// cor.print();
+///o'zgaruvchilar
+// let firstname:string = "Sardor";
+// console.log(firstname);
+// var someArray: any[] = [ 24, "Tom", false];
+// console.log(someArray);
+// var intarray: int[] = [1,2,3,4];
+// console.log(intarray);
+///Methodlar
+// function add(a: number, b: number): number {
+//     return a + b;
+// }
+// let result = add(1, 2);
+// console.log(result);
+// function add(a: number, b: number): void {
+//     console.log(a + b);
+// }
+// add(10, 20);
+///If else
+// function getName(firstName: string, lastName?: string) {
+//     if (lastName)
+//         return firstName + " " + lastName;
+//     else
+//         return firstName;
+// }
+// let name1 = getName("Иван", "Кузнецов");
+// console.log(name1); // Иван Кузнецов
+// let name2 = getName("Вася");
+// console.log(name2); // Вася
+// function sum (x: number, y: number): number {
+//     return x + y;
+// };
+// function subtract (a: number, b: number): number {
+//     return a - b;
+// };
+// let op: (x:number, y:number) => number;
+// op = sum;
+// console.log(op(2, 4));  // 6
+// op = subtract;
+// console.log(op(6, 4));  // 2
+// import {User} from "./User"
+// let user1 = new User(1,20,"Sardor Sohinazarov");
+// let user2 = new User(2,20);
+// user1.name = "Sarvar";
+// console.log(user1);
+// console.log(user2);
+// console.log(user1.toString());
+//Types
+// type id = number | string;
+// let userId : id = 2;
+// console.log(`Id: ${userId}`);
+// userId = "qwerty";
+// console.log(`Id: ${userId}`);
+///Tuple
+// let myTuple:[number,string,string] = [1,"Sardor","Sohinazarov"];
+// console.log(myTuple);
